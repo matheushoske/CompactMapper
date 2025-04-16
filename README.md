@@ -1,3 +1,5 @@
+![CompactMapper Logo](logo.png)
+
 # 📦 CompactMapper
 
 **CompactMapper** is a lightweight, fast, and fully open-source object mapper for .NET that lets you map objects between types — including complex types and collections — with just one line of code.
@@ -169,10 +171,10 @@ No config, no fuss — deeply nested and collections mapped out of the box!
 ## 🙌 Contributing
 
 Want to help improve CompactMapper? PRs are welcome!  
-If you’d like to add features or extensions (like flattening or reverse mapping), feel free to fork and contribute.
+If you'd like to add features or extensions (like flattening or reverse mapping), feel free to fork and contribute.
 
 ---
 
 ## 📫 Contact
 
-Feel free to open an issue or reach out if you use CompactMapper in your project — we’d love to hear how it's helping!
+Feel free to open an issue or reach out if you use CompactMapper in your project — we'd love to hear how it's helping!
