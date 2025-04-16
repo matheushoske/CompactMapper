@@ -1,4 +1,6 @@
-![CompactMapper Logo](logo.png)
+<div align="center">
+  <img src="logo.png" alt="CompactMapper Logo" width="200">
+</div>
 
 # 📦 CompactMapper
 
@@ -6,6 +8,8 @@
 
 > 🟢 **No dependencies. No profiles. No configuration. Just pure mapping.**  
 > 🔄 **An open-source alternative to AutoMapper, which is now commercially licensed.**
+> 
+> Created by **Hoskes**
 
 ---
 
@@ -34,8 +38,27 @@ AutoMapper is an industry-standard library for object mapping in .NET — but st
 
 ## 📦 Installation
 
-Just copy the `CompactMapperExtension` class into your project. No NuGet package required (yet).  
-A package may be available in the future for easier installation.
+### Option 1: NuGet Package (Recommended)
+
+```bash
+# Using Package Manager Console
+Install-Package CompactMapper
+
+# Using .NET CLI
+dotnet add package CompactMapper
+
+# Using PackageReference in .csproj file
+<PackageReference Include="CompactMapper" Version="1.0.0" />
+```
+
+After installing, add the namespace in your code files:
+```csharp
+using CompactMapper;
+```
+
+### Option 2: Manual Installation
+
+Copy the `CompactMapperExtension` class into your project.
 
 ---
 
@@ -155,7 +178,7 @@ No config, no fuss — deeply nested and collections mapped out of the box!
 
 ## 📣 Roadmap
 
-- [ ] NuGet Package: `CompactMapper`
+- [x] NuGet Package: `CompactMapper`
 - [ ] Fluent API style (optional config)
 - [ ] Support for flattening/nested property paths
 - [ ] Dictionary mapping (`Dictionary<string, object>` ↔ POCO)
